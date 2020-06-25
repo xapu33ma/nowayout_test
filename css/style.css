@@ -7,16 +7,16 @@ body{
 }
 @font-face {
     font-family: 'Morganite';
-    src: url(Font/Morganite/Morganite-Bold.ttf);
+    src: url(Font/Morganite-Bold.ttf);
     font-weight: bold;
   }
   @font-face {
     font-family: 'MADE Outer Sans';
-    src: url(/css/Font/MADE_Outer_San_PERSONAL_USE/MADE_Outer_Sans_Bold_PERSONAL_USE.otf);
+    src: url(/css/Font/MADE_Outer_Sans_Bold_PERSONAL_USE.otf);
   }
   @font-face{
     font-family: 'MADE Outer Sans';
-    src: url(/css/Font/MADE_Outer_San_PERSONAL_USE/MADE_Outer_Sans_Bold_PERSONAL_USE.otf);
+    src: url(/css/Font/MADE_Outer_Sans_Bold_PERSONAL_USE.otf);
     font-weight: 250;
   }
 .header{
@@ -97,7 +97,7 @@ body{
     text-align: center;
     background-position: center;
     background-size: cover;
-    background-image: url(images/header/Vector.svg);
+    background-image: url(/nowayout_test/images/header/Vector.svg);
     position: relative;
     width: 25px;
     height: 25px;
@@ -193,7 +193,7 @@ body{
     color: #F7F5F9;
 }
 .horror::after{
-    content: url(images/roomcards/horror.svg);
+    content: url(/nowayout_testimages/roomcards/horror.svg);
     width: 28px;
     height: 28px;
     margin-left: 10px;
@@ -201,7 +201,7 @@ body{
 .tape{
     width: 104%;
     height: 10%;
-    background-image: url(images/roomcards/Tape.png);
+    background-image: url(/nowayout_testimages/roomcards/Tape.png);
     position: absolute;
     top: 40px;
     right: -4px;
