@@ -7,7 +7,7 @@ body{
 }
 @font-face {
     font-family: 'Morganite';
-    src: url(Font/Morganite-Bold.ttf);
+    src: url(/css/Font/Morganite-Bold.ttf);
     font-weight: bold;
   }
   @font-face {
@@ -193,7 +193,7 @@ body{
     color: #F7F5F9;
 }
 .horror::after{
-    content: url(/nowayout_testimages/roomcards/horror.svg);
+    content: url(/nowayout_test/images/roomcards/horror.svg);
     width: 28px;
     height: 28px;
     margin-left: 10px;
@@ -201,7 +201,7 @@ body{
 .tape{
     width: 104%;
     height: 10%;
-    background-image: url(/nowayout_testimages/roomcards/Tape.png);
+    background-image: url(/nowayout_test/images/roomcards/Tape.png);
     position: absolute;
     top: 40px;
     right: -4px;
