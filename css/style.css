@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #000000;
+}
+@font-face {
+    font-family: 'Morganite';
+    src: url(/Font/Morganite/Morganite-Bold.ttf);
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'MADE Outer Sans';
+    src: url(/Font/MADE_Outer_San_PERSONAL_USE/MADE\ Outer\ Sans\ Bold\ PERSONAL\ USE.otf);
+  }
+  @font-face{
+    font-family: 'MADE Outer Sans';
+    src: url(/Font/MADE_Outer_San_PERSONAL_USE/MADE\ Outer\ Sans\ Bold\ PERSONAL\ USE.otf);
+    font-weight: 250;
+  }
+.header{
+    width: 100%;
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0;
+    padding-left: 62px;
+    padding-right: 34px;
+}
+.button-gumburger{
+    display: block;
+    cursor: pointer;
+    width: 60px;
+    height: 18px;
+    padding: 0;
+    margin-top: 7px;
+    margin-bottom: 4px;
+    margin-right: 60px;
+    background: #000000;
+    border: none;
+
+}
+.gumburger-line{
+    display: block;
+    height: 2px;
+    background: #F7F5F9;
+    width: 60px;
+    margin-bottom: 6px;
+}
+.gumburger-line:last-child{
+    margin-bottom: 0px;
+}
+.navigation-link{
+    text-decoration: none;
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F7F5F9;
+    margin-right: 40px;
+}
+.navigation-link:last-child{
+    margin-right: 0;
+}
+.header-logo{
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 33px;
+    margin: auto;
+}
+.header-tel{
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F7F5F9;
+    text-decoration: none;
+}
+.shopping-bag-link{
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.shopping-bag-link::after{
+    content: "2";
+    display: block;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/header/Vector.svg);
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: -40px;
+    right: -20px;
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    color: red;
+}
+.languages{
+    width: 56px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.language-button{
+    display: block;
+    flex-basis: 50%;
+    text-decoration: none;
+    border: none;
+    background: #000000;
+}
+.de-language{
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.en-language{
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F7F5F9;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    padding-left: 62px;
+    padding-right: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.room-card{
+    width: 19.5%;
+    height: 100%;
+    position: relative;
+}
+.room-card-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.card-text{
+    padding: 0;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    margin: auto;
+    vertical-align: text-bottom;
+}
+.card-text-title{
+    display: block;
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 36px;
+    color: #F7F5F9;
+}
+.card-text-subtitle{
+    display: block;
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 13px;
+    line-height: 24px;
+    color: #F7F5F9;
+}
+.horror::after{
+    content: url(/images/roomcards/horror.svg);
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+.tape{
+    width: 104%;
+    height: 10%;
+    background-image: url(/images/roomcards/Tape\ 3\ 1.png);
+    position: absolute;
+    top: 40px;
+    right: -4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+.tape-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+}
+
+.tape-h1{
+    display: block;
+    width: 92px;
+    height: 55px;
+    text-align: left;
+    font-family: Morganite;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: #F7F5F9;
+    transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+}
+.tape-h2-h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tape-h2{
+    display: block;
+    text-align: right;
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F7F5F9;
+    transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+
+}
+.tape-h3{
+    display: block;
+    text-align: right;
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 9px;
+    line-height: 24px;
+    color: #F7F5F9;
+    transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+}
