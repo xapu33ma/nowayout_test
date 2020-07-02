@@ -1,4 +1,4 @@
-let countDownDate = new Date("Jul 1, 2020 00:00:00").getTime();
+let countDownDate = new Date("Aug 1, 2020 00:00:00").getTime();
 // Обновляєм таймер каждую секунду
 let countDownFunction = setInterval(function(){
     //время на данный момент
